@@ -1,0 +1,13 @@
+@media (max-width: 1199px) {
+    .radio {
+        &__field {
+            max-width: 18px;
+            min-width: 18px;
+            height: 18px;
+        }
+
+        &__label {
+            font-size: 18px;
+        }
+    }
+}
