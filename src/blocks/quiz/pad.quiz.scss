@@ -1,0 +1,47 @@
+@media (max-width: 1199px) {
+    .quiz {
+        &__steps-info {
+            font-size: 20px;
+        }
+
+        &__step {
+            margin-top: -40px;
+        }
+
+        &__step-col {
+            margin-top: 40px;
+        }
+
+        &__question {
+            font-size: 20px;
+            margin: 0 0 20px;
+        }
+
+        &__items {
+            margin-bottom: 32px;
+        }
+
+        
+        &__label {
+            flex-basis: calc(100% - 58px);
+        }
+
+        &__icon {
+            top: 18px;
+        }
+
+        &__answer {
+            font-size: 18px;
+            margin-left: 42px;
+        }
+
+        &__result-score {
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+    
+        &__result-pic {
+            margin-bottom: 32px;
+        }
+    }
+}

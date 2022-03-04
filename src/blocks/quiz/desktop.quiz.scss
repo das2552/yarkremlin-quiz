@@ -1,0 +1,40 @@
+@media (max-width: 1919px) {
+    .quiz {
+        &__step {
+            margin-top: -44px;
+        }
+
+        &__step-col {
+            margin-top: 44px;
+        }
+
+        &__question {
+            margin: 0 0 24px;
+        }
+
+        &__items {
+            margin-bottom: 36px;
+        }
+
+        &__label {
+            flex-basis: calc(100% - 68px);
+        }
+
+        &__icon {
+            top: 16px;
+        }
+
+        &__answer {
+            margin-left: 44px;
+            font-size: 20px;
+        }
+
+        &__pic {
+            border-radius: 4px;
+        }
+    
+        &__result-pic {
+            margin-bottom: 36px;
+        }
+    }
+}

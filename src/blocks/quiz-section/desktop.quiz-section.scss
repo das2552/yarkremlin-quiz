@@ -1,0 +1,13 @@
+@media (max-width: 1919px) {
+    .quiz-section {
+        &__container {
+            margin-bottom: 120px;
+        }
+
+        &__descr {
+            max-width: 1024px;
+            margin: 0 0 52px;
+            font-size: 28px;
+        }
+    }
+}

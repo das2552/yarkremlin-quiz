@@ -1,0 +1,54 @@
+@media (max-width: 767px) {
+    .quiz {
+        &__steps-info {
+            font-size: 20px;
+        }
+
+        &__step {
+            margin-top: -32px;
+        }
+
+        &__step-col {
+            max-width: 480px;
+            margin-top: 32px;
+        }
+
+        &__question {
+            font-size: 20px;
+            margin: 0 0 20px;
+        }
+
+        &__items {
+            margin-bottom: 24px;
+        }
+
+        &__label {
+            flex-basis: calc(100% - 48px);
+        }
+
+        &__field {
+            margin-left: 8px;
+        }
+
+        &__icon {
+            top: 16px;
+            left: 8px;
+        }
+
+        &__answer {
+            margin-top: 8px;
+            margin-left: 32px;
+            margin-bottom: 0;
+            font-size: 16px;
+        }
+
+        &__pic {
+            height: 240px;
+            max-width: 480px;
+        }
+    
+        &__result-pic {
+            margin-bottom: 24px;
+        }
+    }
+}
