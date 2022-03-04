@@ -1,15 +1,11 @@
 // Импорт сторонних модулей
 
-// Конец
-
 // Импорт модулей блоков
-
-// Конец
+import quiz from './blocks/quiz/quiz';
 
 // Импорт стилей блоков
-
-// Конец
+import './blocks.scss';
 
 export default () => {
-  console.log('init app');
+  quiz();
 };

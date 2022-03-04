@@ -1,0 +1,45 @@
+@import "./fonts/fonts.css";
+
+@import "./blocks/img/img.scss";
+
+@import "./blocks/container/container.scss";
+@import "./blocks/container/desktop.container.scss";
+@import "./blocks/container/pad.container.scss";
+@import "./blocks/container/mobile.container.scss";
+
+@import "./blocks/button/button.scss";
+@import "./blocks/button/desktop.button.scss";
+@import "./blocks/button/pad.button.scss";
+@import "./blocks/button/mobile.button.scss";
+
+@import "./blocks/radio/radio.scss";
+@import "./blocks/radio/desktop.radio.scss";
+@import "./blocks/radio/pad.radio.scss";
+@import "./blocks/radio/mobile.radio.scss";
+
+@import "./blocks/icon/icon.scss";
+@import "./blocks/icon/desktop.icon.scss";
+@import "./blocks/icon/pad.icon.scss";
+@import "./blocks/icon/mobile.icon.scss";
+
+@import "./blocks/cover/cover.scss";
+@import "./blocks/cover/desktop.cover.scss";
+@import "./blocks/cover/pad.cover.scss";
+@import "./blocks/cover/mobile.cover.scss";
+
+@import "./blocks/quiz-section/quiz-section.scss";
+@import "./blocks/quiz-section/desktop.quiz-section.scss";
+@import "./blocks/quiz-section/pad.quiz-section.scss";
+@import "./blocks/quiz-section/mobile.quiz-section.scss";
+
+@import "./blocks/quiz/quiz.scss";
+@import "./blocks/quiz/desktop.quiz.scss";
+@import "./blocks/quiz/pad.quiz.scss";
+@import "./blocks/quiz/mobile.quiz.scss";
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  margin: 0;
+}
