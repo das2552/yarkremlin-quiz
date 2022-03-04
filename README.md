@@ -1,5 +1,5 @@
 # Демонстрация верстки
-### [Страница с тестом](https://visetin.github.io/yarkremlin-quiz//dist/index.html)
+### [Страница с тестом](https://visetin.github.io/yarkremlin-quiz/dist/index.html)
 
 ## Использование сборки
 Установить зависимости
