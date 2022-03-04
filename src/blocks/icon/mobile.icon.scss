@@ -1,0 +1,15 @@
+@media (max-width: 767px) {
+    .icon {
+        max-width: 16px;
+        min-width: 16px;
+        height: 16px;
+    }
+
+    .icon_correct {
+        background-size: 9px auto;
+    }
+    
+    .icon_incorrect {
+        background-size: 9px auto;
+    }
+}
