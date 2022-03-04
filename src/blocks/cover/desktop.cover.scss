@@ -1,0 +1,20 @@
+@media (max-width: 1919px) {
+    .cover {
+        margin-bottom: 64px;
+
+        &__container {
+            min-height: 520px;
+            padding-bottom: 60px;
+        }
+
+        &__title {
+            font-size: 48px;
+            max-width: 1024px;
+        }
+
+        &__pic {
+            left: -40px;
+            right: -40px;
+        }
+    }
+}
