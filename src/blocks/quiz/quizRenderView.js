@@ -8,6 +8,10 @@ export default {
       elements.submitButton.classList.remove('button_hidden');
     }
 
+    if (state.disablingStepNavState === 'enabled') {
+      elements.submitButton.disabled = false;
+    }
+
     if (state.gettingResultProcessState === 'processing') {
       elements.submitButton.disabled = true;
     }

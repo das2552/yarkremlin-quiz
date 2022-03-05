@@ -4,6 +4,7 @@ export default (element) => {
     activeStepIndex: 0,
     stepsCount: 8,
     visibilitySubmitButtonState: 'hidden',
+    disablingSubmitButtonState: 'disabled',
     gettingResultProcessState: 'idle',
   };
 

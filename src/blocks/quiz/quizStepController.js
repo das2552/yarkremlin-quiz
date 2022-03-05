@@ -23,6 +23,8 @@ export default (element, elementIndex, quizInstaceMediator) => {
 
     quizStepRenderView.renderAnswer(quizStepInstace);
     quizStepRenderView.renderStepNav(quizStepInstace);
+
+    if (quizInstaceMediator.isLastStep()) quizInstaceMediator.enableSubmitButton();
   };
 
   const stepNavClickHandler = () => {

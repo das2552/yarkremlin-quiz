@@ -19,6 +19,11 @@ export default (quizInstace) => {
     quizRenderView.renderSubmitButton(quizInstace);
   };
 
+  const enableSubmitButton = () => {
+    state.disablingStepNavState = 'enabled';
+    quizRenderView.renderSubmitButton(quizInstace);
+  };
+
   const getLastStepIndex = () => state.stepsCount - 1;
 
   const isLastStep = () => state.activeStepIndex === state.stepsCount - 1;
@@ -27,6 +32,7 @@ export default (quizInstace) => {
     updateScore,
     updateActiveStep,
     showSubmitButton,
+    enableSubmitButton,
     getLastStepIndex,
     isLastStep,
   };
