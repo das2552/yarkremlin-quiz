@@ -37,6 +37,11 @@
 @import "./blocks/quiz/pad.quiz.scss";
 @import "./blocks/quiz/mobile.quiz.scss";
 
+@import "./blocks/logo/logo.scss";
+@import "./blocks/logo/pad.logo.scss";
+
+@import "./blocks/footer/footer.scss";
+
 body {
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
