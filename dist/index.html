@@ -11,20 +11,18 @@
     <main>
         <section class="cover">
             <div class="container cover__container">
-                <picture class="cover__pic">
-                    <img class="img" alt="">
-                </picture>
-                <h2 class="cover__title">Какое-то длинное название темы теста в несколько строк</h2>
+                <h2 class="cover__title">Игра «Откуда будешь? или Язык доведёт»</h2>
             </div>
         </section>
         <div class="quiz-section">
             <div class="container quiz-section__container">
                 <p class="quiz-section__descr">
-                    Описание теста в несколько строк описание теста в несколько строк описание теста в несколько строк описание теста в несколько строк описание теста в несколько строк описание теста в несколько строк описание теста в несколько строк описание теста в несколько строк описание теста в несколько строк описание теста в несколько строк описание теста в несколько строк
+                  Иногда диалектные слова помогают понять, «свой» человек или он приезжий. 
+                  Представьте, вы оказываетесь в деревне Ярославской области у бабушки на каникулах. Ваша задача — угадать значение ярославского слова и выбрать подходящий ответ. Попробуйте сойти за «своего».
                 </p>
 
                 <div class="quiz">
-                  <form>
+                  <form class="quiz__section quiz__form quiz__section_shown">
                     <span class="quiz__steps-info">1 из 8 вопросов</span>
 
                     <div class="quiz__steps">
@@ -32,128 +30,361 @@
 
                         <div class="quiz__step quiz__step_shown">
                             <div class="quiz__step-col">
-                              <picture class="quiz__pic">
-                                <img class="img" alt="">
-                              </picture>
-                            </div>
-                            <div class="quiz__step-col">
                               <p class="quiz__question">
-                                Какой-то вопрос какой-то вопрос какой-то вопрос 
+                                Раннее утро. Бабушка зовет вас на завтрак. На вопрос, что на завтрак, бабушка говорит, что приготовила <b>яблочник</b>. Вы очень обрадовались, ведь <b>яблочник</b> —  это:
                               </p>
 
                               <div class="quiz__items">
                                 <label class="radio quiz__item radio quiz__item_hover" data-correct-answer>
                                   <div class="icon icon_hidden icon_correct quiz__icon"></div>
                                   <input class="radio__field quiz__field" type="radio" name="group">
-                                  <span class="radio__label quiz__label">Какой-то правильный ответ</span>
+                                  <span class="radio__label quiz__label">Запеканка из вареного картофеля с яйцами и молоком</span>
                                   <p class="quiz__answer quiz__answer_hidden">
-                                    Какое-то описание правильного ответа какое-то описание правильного ответа какое-то описание правильного ответа какое-то описание правильного ответа какое-то описание правильного ответа
+                                    <b>Яблочник</b> — запеканка из вареного картофеля с яйцами и молоком.
+                                    Слово употребляется по всей области.
                                   </p>
                                 </label>
 
                                 <label class="radio quiz__item quiz__item_hover">
                                   <div class="icon icon_hidden icon_incorrect quiz__icon"></div>
                                   <input class="radio__field quiz__field" type="radio" name="group">
-                                  <span class="radio__label quiz__label">Какой-то неправильный ответ</span>
-                                  <p class="quiz__answer quiz__answer_hidden">
-                                    Какое-то описание неправильного ответа  Какое-то описание неправильного ответа  Какое-то описание неправильного ответа  Какое-то описание неправильного ответа  Какое-то описание неправильного ответа  Какое-то описание неправильного ответа
-                                  </p>
+                                  <span class="radio__label quiz__label">Открытый пирог с яблоками</span>
                                 </label>
 
                                 <label class="radio quiz__item quiz__item_hover">
                                   <div class="icon icon_hidden icon_incorrect quiz__icon"></div>
                                   <input class="radio__field quiz__field" type="radio" name="group">
-                                  <span class="radio__label quiz__label">Какой-то неправильный ответ</span>
-                                  <p class="quiz__answer quiz__answer_hidden">
-                                    Какое-то описание неправильного ответа  Какое-то описание неправильного ответа  Какое-то описание неправильного ответа  Какое-то описание неправильного ответа  Какое-то описание неправильного ответа  Какое-то описание неправильного ответа
-                                  </p>
+                                  <span class="radio__label quiz__label">Да это же любимая глазунья!</span>
                                 </label>
-
-                                <label class="radio quiz__item quiz__item_hover">
-                                  <div class="icon icon_hidden icon_incorrect quiz__icon"></div>
-                                  <input class="radio__field quiz__field" type="radio" name="group">
-                                  <span class="radio__label quiz__label">Какой-то неправильный ответ</span>
-                                  <p class="quiz__answer quiz__answer_hidden">
-                                    Какое-то описание неправильного ответа  Какое-то описание неправильного ответа  Какое-то описание неправильного ответа  Какое-то описание неправильного ответа  Какое-то описание неправильного ответа  Какое-то описание неправильного ответа
-                                  </p>
-                                </label>
-
                               </div>
 
                               <button class="button quiz__step-nav" type="button" disabled>Следующий вопрос</button>
+                            </div>
+                            <div class="quiz__step-col">
+                              <div class="quiz__card">
+                                <span class="quiz__card-value">Яблочник</span>
+                              </div>
                             </div>
                         </div>
 
                         <div class="quiz__step">
                             <div class="quiz__step-col">
-                              <picture class="quiz__pic">
-                                <img class="img" alt="">
-                              </picture>
-                            </div>
-                            <div class="quiz__step-col">
                               <p class="quiz__question">
-                                Еще какой-то вопрос еще какой-то вопрос какой-то вопрос 
+                                Во время завтрака заглянула баба Нюра из соседнего дома. Рассказала, что завтра к ней приедут дети с внуком. Но он у них <b>паползень</b>. Что это значит?
                               </p>
 
                               <div class="quiz__items">
+                                <label class="radio quiz__item quiz__item_hover">
+                                  <div class="icon icon_hidden icon_incorrect quiz__icon"></div>
+                                  <input class="radio__field quiz__field" type="radio" name="group-1">
+                                  <span class="radio__label quiz__label">Помощи по дому ей ждать не стоит, он очень ленивый</span>
+                                </label>
+
                                 <label class="radio quiz__item radio quiz__item_hover" data-correct-answer>
                                   <div class="icon icon_hidden icon_correct quiz__icon"></div>
                                   <input class="radio__field quiz__field" type="radio" name="group-1">
-                                  <span class="radio__label quiz__label">Какой-то правильный ответ</span>
+                                  <span class="radio__label quiz__label">Ну вот, поиграть с ним не получится. Он даже еще ходить не умеет</span>
                                   <p class="quiz__answer quiz__answer_hidden">
-                                    Какое-то описание правильного ответа какое-то описание правильного ответа какое-то описание правильного ответа какое-то описание правильного ответа какое-то описание правильного ответа
+                                    <b>Паползень</b> — маленький ребенок, который не умеет ходить, только ползает.
+                                    Слово употребляется по всей области.
                                   </p>
                                 </label>
 
                                 <label class="radio quiz__item quiz__item_hover">
                                   <div class="icon icon_hidden icon_incorrect quiz__icon"></div>
                                   <input class="radio__field quiz__field" type="radio" name="group-1">
-                                  <span class="radio__label quiz__label">Какой-то неправильный ответ</span>
-                                  <p class="quiz__answer quiz__answer_hidden">
-                                    Какое-то описание неправильного ответа  Какое-то описание неправильного ответа  Какое-то описание неправильного ответа  Какое-то описание неправильного ответа  Какое-то описание неправильного ответа  Какое-то описание неправильного ответа
-                                  </p>
+                                  <span class="radio__label quiz__label">Здорово, будем вместе лазать по деревьям. Он точно это любит</span>
                                 </label>
-
-                                <label class="radio quiz__item quiz__item_hover">
-                                  <div class="icon icon_hidden icon_incorrect quiz__icon"></div>
-                                  <input class="radio__field quiz__field" type="radio" name="group-1">
-                                  <span class="radio__label quiz__label">Какой-то неправильный ответ</span>
-                                  <p class="quiz__answer quiz__answer_hidden">
-                                    Какое-то описание неправильного ответа  Какое-то описание неправильного ответа  Какое-то описание неправильного ответа  Какое-то описание неправильного ответа  Какое-то описание неправильного ответа  Какое-то описание неправильного ответа
-                                  </p>
-                                </label>
-
-                                <label class="radio quiz__item quiz__item_hover">
-                                  <div class="icon icon_hidden icon_incorrect quiz__icon"></div>
-                                  <input class="radio__field quiz__field" type="radio" name="group-1">
-                                  <span class="radio__label quiz__label">Какой-то неправильный ответ</span>
-                                  <p class="quiz__answer quiz__answer_hidden">
-                                    Какое-то описание неправильного ответа  Какое-то описание неправильного ответа  Какое-то описание неправильного ответа  Какое-то описание неправильного ответа  Какое-то описание неправильного ответа  Какое-то описание неправильного ответа
-                                  </p>
-                                </label>
-
-                                <label class="radio quiz__item quiz__item_hover">
-                                  <div class="icon icon_hidden icon_incorrect quiz__icon"></div>
-                                  <input class="radio__field quiz__field" type="radio" name="group-1">
-                                  <span class="radio__label quiz__label">Какой-то неправильный ответ</span>
-                                  <p class="quiz__answer quiz__answer_hidden">
-                                    Какое-то описание неправильного ответа  Какое-то описание неправильного ответа  Какое-то описание неправильного ответа  Какое-то описание неправильного ответа  Какое-то описание неправильного ответа  Какое-то описание неправильного ответа
-                                  </p>
-                                </label>
-
-                                <label class="radio quiz__item quiz__item_hover">
-                                  <div class="icon icon_hidden icon_incorrect quiz__icon"></div>
-                                  <input class="radio__field quiz__field" type="radio" name="group-1">
-                                  <span class="radio__label quiz__label">Какой-то неправильный ответ</span>
-                                  <p class="quiz__answer quiz__answer_hidden">
-                                    Какое-то описание неправильного ответа  Какое-то описание неправильного ответа  Какое-то описание неправильного ответа  Какое-то описание неправильного ответа  Какое-то описание неправильного ответа  Какое-то описание неправильного ответа
-                                  </p>
-                                </label>
-
                               </div>
 
                               <button class="button quiz__step-nav" type="button" disabled>Следующий вопрос</button>
                             </div>
+
+                            <div class="quiz__step-col">
+                              <div class="quiz__card">
+                                <span class="quiz__card-value">Паползень</span>
+                              </div>
+                            </div>
+                        </div>
+
+                        <div class="quiz__step">
+                          <div class="quiz__step-col">
+                            <p class="quiz__question">
+                              Баба Нюра говорит, что  сегодня нужно будет все <b>причередить</b>. Что это значит?
+                            </p>
+
+                            <div class="quiz__items">
+                              <label class="radio quiz__item quiz__item_hover">
+                                <div class="icon icon_hidden icon_incorrect quiz__icon"></div>
+                                <input class="radio__field quiz__field" type="radio" name="group-2">
+                                <span class="radio__label quiz__label">Спрятать хрупкие вещи, чтобы внук ничего не разбил</span>
+                              </label>
+
+                              <label class="radio quiz__item quiz__item_hover">
+                                <div class="icon icon_hidden icon_incorrect quiz__icon"></div>
+                                <input class="radio__field quiz__field" type="radio" name="group-2">
+                                <span class="radio__label quiz__label">Составить список того, что нужно привезти детям из города</span>
+                              </label>
+
+                              <label class="radio quiz__item radio quiz__item_hover" data-correct-answer>
+                                <div class="icon icon_hidden icon_correct quiz__icon"></div>
+                                <input class="radio__field quiz__field" type="radio" name="group-2">
+                                <span class="radio__label quiz__label">Убраться в доме</span>
+                                <p class="quiz__answer quiz__answer_hidden">
+                                  <b>Причередить</b> — навести порядок, убраться в доме.
+                                  Слово употребляется по всей области.
+                                </p>
+                              </label>
+                            </div>
+
+                            <button class="button quiz__step-nav" type="button" disabled>Следующий вопрос</button>
+                          </div>
+
+                          <div class="quiz__step-col">
+                            <div class="quiz__card">
+                              <span class="quiz__card-value">Причередить</span>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="quiz__step">
+                          <div class="quiz__step-col">
+                            <p class="quiz__question">
+                              Вы уже почти доели, заходит Мишка и зовет вас гулять. Сегодня он пошел другой дорогой и уже попал в <b>жгучку</b>. Что с ним произошло?
+                            </p>
+
+                            <div class="quiz__items">
+                              <label class="radio quiz__item quiz__item_hover">
+                                <div class="icon icon_hidden icon_incorrect quiz__icon"></div>
+                                <input class="radio__field quiz__field" type="radio" name="group-3">
+                                <span class="radio__label quiz__label">Подрался со старшими ребятами</span>
+                              </label>
+
+                              <label class="radio quiz__item quiz__item_hover">
+                                <div class="icon icon_hidden icon_incorrect quiz__icon"></div>
+                                <input class="radio__field quiz__field" type="radio" name="group-3">
+                                <span class="radio__label quiz__label">С самого утра на улице слишком жарко</span>
+                              </label>
+
+                              <label class="radio quiz__item radio quiz__item_hover" data-correct-answer>
+                                <div class="icon icon_hidden icon_correct quiz__icon"></div>
+                                <input class="radio__field quiz__field" type="radio" name="group-3">
+                                <span class="radio__label quiz__label">Обжегся крапивой</span>
+                                <p class="quiz__answer quiz__answer_hidden">
+                                  <b>Жгучка</b> — крапива. Еще ее называют <b>жига</b> или <b>жигалка</b>.
+                                  Слово употребляется по всей области.
+                                </p>
+                              </label>
+                            </div>
+
+                            <button class="button quiz__step-nav" type="button" disabled>Следующий вопрос</button>
+                          </div>
+
+                          <div class="quiz__step-col">
+                            <div class="quiz__card">
+                              <span class="quiz__card-value">Жгучка</span>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        <div class="quiz__step">
+                          <div class="quiz__step-col">
+                            <p class="quiz__question">
+                              Вы идем к Мишкиным друзьям. Он радостно говорит, что нашёл такую <b>супрятку</b>! О чем он?
+                            </p>
+
+                            <div class="quiz__items">
+                              <label class="radio quiz__item radio quiz__item_hover" data-correct-answer>
+                                <div class="icon icon_hidden icon_correct quiz__icon"></div>
+                                <input class="radio__field quiz__field" type="radio" name="group-4">
+                                <span class="radio__label quiz__label">Место, где прячутся во время игры в прятки</span>
+                                <p class="quiz__answer quiz__answer_hidden">
+                                  <b>Супрятка</b> — место, где прячутся во время игры в прятки.
+                                  Слово употребляется в Некрасовском, Переславском и Пошехонском районах.
+                                </p>
+                              </label>
+
+                              <label class="radio quiz__item quiz__item_hover">
+                                <div class="icon icon_hidden icon_incorrect quiz__icon"></div>
+                                <input class="radio__field quiz__field" type="radio" name="group-4">
+                                <span class="radio__label quiz__label">Дерево, с которого удобно прыгать в реку</span>
+                              </label>
+
+                              <label class="radio quiz__item quiz__item_hover">
+                                <div class="icon icon_hidden icon_incorrect quiz__icon"></div>
+                                <input class="radio__field quiz__field" type="radio" name="group-4">
+                                <span class="radio__label quiz__label">Заросли дикой малины</span>
+                              </label>
+                            </div>
+
+                            <button class="button quiz__step-nav" type="button" disabled>Следующий вопрос</button>
+                          </div>
+
+                          <div class="quiz__step-col">
+                            <div class="quiz__card">
+                              <span class="quiz__card-value">Супрятка</span>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="quiz__step">
+                          <div class="quiz__step-col">
+                            <p class="quiz__question">
+                              Вы дошли до ребят. Они сказали, что раз есть новенькие, то сегодня они и <b>отваживаются</b>. Что вам придётся делать?
+                            </p>
+
+                            <div class="quiz__items">
+                              <label class="radio quiz__item quiz__item_hover">
+                                <div class="icon icon_hidden icon_incorrect quiz__icon"></div>
+                                <input class="radio__field quiz__field" type="radio" name="group-5">
+                                <span class="radio__label quiz__label">Пора бежать - бить будут!</span>
+                              </label>
+
+                              <label class="radio quiz__item radio quiz__item_hover" data-correct-answer>
+                                <div class="icon icon_hidden icon_correct quiz__icon"></div>
+                                <input class="radio__field quiz__field" type="radio" name="group-5">
+                                <span class="radio__label quiz__label">Вы — водящий в игре</span>
+                                <p class="quiz__answer quiz__answer_hidden">
+                                  Не переживайте, прыгать с дерева не придется и бить вас тоже не будут. Вы — водящий в игре.
+                                  Слово употребляется в Борисоглебском, Мышкинском,  Некрасовском,  Пошехонском и других районах.
+                                </p>
+                              </label>
+
+                              <label class="radio quiz__item quiz__item_hover">
+                                <div class="icon icon_hidden icon_incorrect quiz__icon"></div>
+                                <input class="radio__field quiz__field" type="radio" name="group-5">
+                                <span class="radio__label quiz__label">Придется спрыгнуть с высокого дерева в реку, чтобы показать свою отвагу</span>
+                              </label>
+                            </div>
+
+                            <button class="button quiz__step-nav" type="button" disabled>Следующий вопрос</button>
+                          </div>
+
+                          <div class="quiz__step-col">
+                            <div class="quiz__card">
+                              <span class="quiz__card-value">Отваживаться</span>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="quiz__step">
+                          <div class="quiz__step-col">
+                            <p class="quiz__question">
+                              Время за игрой пролетело незаметно. Бабушка причитает, что вы ухавозились и  зовёт домой. <b>Ухавозились</b> — это что?
+                            </p>
+
+                            <div class="quiz__items">
+                              <label class="radio quiz__item quiz__item_hover">
+                                <div class="icon icon_hidden icon_incorrect quiz__icon"></div>
+                                <input class="radio__field quiz__field" type="radio" name="group-6">
+                                <span class="radio__label quiz__label">Уже прошло много времени и вы проголодались</span>
+                              </label>
+
+                              <label class="radio quiz__item quiz__item_hover">
+                                <div class="icon icon_hidden icon_incorrect quiz__icon"></div>
+                                <input class="radio__field quiz__field" type="radio" name="group-6">
+                                <span class="radio__label quiz__label">Вы наверняка устали играть целый день</span>
+                              </label>
+
+                              <label class="radio quiz__item radio quiz__item_hover" data-correct-answer>
+                                <div class="icon icon_hidden icon_correct quiz__icon"></div>
+                                <input class="radio__field quiz__field" type="radio" name="group-6">
+                                <span class="radio__label quiz__label">Кажется вы не заметили, как испачкались</span>
+                                <p class="quiz__answer quiz__answer_hidden">
+                                  <b>Ухавозиться</b> — это испачкаться. А устать — это упетаться.
+                                  Слово употребляется в Брейтовском, Рыбинском и Пошехонском районах.
+                                </p>
+                              </label>
+                            </div>
+
+                            <button class="button quiz__step-nav" type="button" disabled>Следующий вопрос</button>
+                          </div>
+
+                          <div class="quiz__step-col">
+                            <div class="quiz__card">
+                              <span class="quiz__card-value">Ухавозиться</span>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="quiz__step">
+                          <div class="quiz__step-col">
+                            <p class="quiz__question">
+                              День подходит к концу. Бабушка покормила вас вкусным ужином и попросила после убрать <b>тенето</b>. Что нужно сделать?
+                            </p>
+
+                            <div class="quiz__items">
+                              <label class="radio quiz__item quiz__item_hover">
+                                <div class="icon icon_hidden icon_incorrect quiz__icon"></div>
+                                <input class="radio__field quiz__field" type="radio" name="group-7">
+                                <span class="radio__label quiz__label">Вынести мусор</span>
+                              </label>
+
+                              <label class="radio quiz__item radio quiz__item_hover" data-correct-answer>
+                                <div class="icon icon_hidden icon_correct quiz__icon"></div>
+                                <input class="radio__field quiz__field" type="radio" name="group-7">
+                                <span class="radio__label quiz__label">Убрать паутину</span>
+                                <p class="quiz__answer quiz__answer_hidden">
+                                  <b>Тенето</b> — это паутина. А паук, соответственно, — <b>тенятник</b> или <b>мизгирь</b>.
+                                  Слово употребляется по всей области. 
+                                </p>
+                              </label>
+
+                              <label class="radio quiz__item quiz__item_hover">
+                                <div class="icon icon_hidden icon_incorrect quiz__icon"></div>
+                                <input class="radio__field quiz__field" type="radio" name="group-7">
+                                <span class="radio__label quiz__label">Снять с веревки высохшее белье</span>
+                              </label>                              
+                            </div>
+
+                            <button class="button quiz__step-nav" type="button" disabled>Следующий вопрос</button>
+                          </div>
+
+                          <div class="quiz__step-col">
+                            <div class="quiz__card">
+                              <span class="quiz__card-value">Тенето</span>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="quiz__step">
+                          <div class="quiz__step-col">
+                            <p class="quiz__question">
+                              Пора готовиться ко сну. Бабушка достала вам любимую <b>обогнушку</b>. Что это?
+                            </p>
+
+                            <div class="quiz__items">
+                              <label class="radio quiz__item radio quiz__item_hover" data-correct-answer>
+                                <div class="icon icon_hidden icon_correct quiz__icon"></div>
+                                <input class="radio__field quiz__field" type="radio" name="group-8">
+                                <span class="radio__label quiz__label">Одеяло</span>
+                                <p class="quiz__answer quiz__answer_hidden">
+                                  <b>Обогнушка</b> — это одеяло.
+                                  Слово употребляется по всей области в значении одеяла или другой теплой вещи, которой можно укутаться.
+                                </p>
+                              </label>
+
+                              <label class="radio quiz__item quiz__item_hover">
+                                <div class="icon icon_hidden icon_incorrect quiz__icon"></div>
+                                <input class="radio__field quiz__field" type="radio" name="group-8">
+                                <span class="radio__label quiz__label">Подушка</span>
+                              </label>                              
+
+                              <label class="radio quiz__item quiz__item_hover">
+                                <div class="icon icon_hidden icon_incorrect quiz__icon"></div>
+                                <input class="radio__field quiz__field" type="radio" name="group-8">
+                                <span class="radio__label quiz__label">Пижама</span>
+                              </label>                              
+                            </div>
+
+                            <button class="button quiz__step-nav" type="button" disabled>Следующий вопрос</button>
+                          </div>
+
+                          <div class="quiz__step-col">
+                            <div class="quiz__card">
+                              <span class="quiz__card-value">Обогнушка</span>
+                            </div>
+                          </div>
                         </div>
 
                       </div>
@@ -162,21 +393,10 @@
                     <input class="button button_hidden quiz__submit" type="submit" value="Получить результат" disabled>
                   </form>
 
-                  <br><br><br><br><br>
-
-                  <div class="quiz__result">
-                    <!-- Модификаторы для баллов (условия для примера):
-                      quiz__result-score_hight - результат больше половины
-                      quiz__result-score_md - результат больше 1/3
-                      quiz__result-score_low - результат меньше 1/3
-                    -->
-                    <span class="quiz__result-score quiz__result-score_hight">Баллов набрано: 6 из 8</span>
-
-                    <picture class="quiz__pic quiz__result-pic">
-                      <img class="img" alt="">
-                    </picture>
-
-                    <a href="#" class="button button_type_link">Пройти еще раз</a>
+                  <div class="quiz__section quiz__result">
+                    <span class="quiz__result-score quiz__result-score_hight"></span>
+                    <div class="quiz__card quiz__result-card"></div>
+                    <button class="button quiz__reset" type="button">Пройти еще раз</button>
                   </div>
                 </div>
             </div>
@@ -186,7 +406,6 @@
           <div class="container footer__container">
             <div class="logo footer__item footer__logo">
               <span class="logo__pic"></span>
-              <span class="logo__text">Ярославский музей‑заповедник</span>
             </div>
           </div>
         </footer>
