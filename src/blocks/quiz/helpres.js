@@ -3,6 +3,8 @@ export const formatQuizStepsInfo = (currentPointIndex, pointsCount) => {
   return `${currentPoint} из ${pointsCount} вопросов`;
 };
 
+export const formatQuizResultInfo = (score, pointsCount) => `Баллов набрано: ${score} из ${pointsCount}`;
+
 export const getCorrectAnswerIndex = (answers) => {
   let answerIndex;
 

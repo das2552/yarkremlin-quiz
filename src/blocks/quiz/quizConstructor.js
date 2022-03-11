@@ -1,11 +1,17 @@
 export default (element) => {
-  const state = {
+  const initialState = {
     score: 0,
+    scoreState: null,
     activeStepIndex: 0,
     stepsCount: 8,
     visibilitySubmitButtonState: 'hidden',
     disablingSubmitButtonState: 'disabled',
-    gettingResultProcessState: 'idle',
+    visibilityResult: 'hidden',
+    result: null,
+  };
+
+  const state = {
+    ...initialState,
   };
 
   const elements = {
@@ -13,10 +19,16 @@ export default (element) => {
     stepsInfo: element.querySelector('.quiz__steps-info'),
     steps: Array.from(element.querySelectorAll('.quiz__step')),
     resultsDataElement: element.querySelector('.quiz__results-data'),
+    form: element.querySelector('.quiz__form'),
+    result: element.querySelector('.quiz__result'),
+    resultScore: element.querySelector('.quiz__result-score'),
+    resultCard: element.querySelector('.quiz__result-card'),
+    resetButton: element.querySelector('.quiz__reset'),
   };
 
   return {
     state,
     elements,
+    initialState,
   };
 };
