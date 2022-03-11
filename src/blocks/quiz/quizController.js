@@ -8,6 +8,7 @@ import quizConstants from './quizConstants';
 import quizStore from './quizStore';
 
 import { formatQuizResultInfo } from './helpres';
+import { debounce } from '../../helpers/helpers';
 
 const buildResultCardTemplate = ({ result, descr }) => (
   `<p class="quiz__card-text">${result}</p><p class="quiz__card-descr">${descr}</p>`
@@ -50,9 +51,7 @@ export default (element) => {
 
   quizRenderView.renderStepsInfo(quizInstace);
 
-  elements.resetButton.addEventListener('click', () => window.location.reload());
-
-  elements.form.addEventListener('submit', (event) => {
+  const formSubmitHandler = (event) => {
     event.preventDefault();
     const { score } = state;
 
@@ -74,11 +73,22 @@ export default (element) => {
       state.scoreState = 'medium';
     }
 
-    console.log(state.result);
     renderResult(state, elements);
-  });
+  };
+
+  const windowReload = () => {
+    window.location.reload();
+  };
+
+  const preventAutoReload = debounce(windowReload, quizConstants.userInactionDelay);
+
+  elements.resetButton.addEventListener('click', () => windowReload);
+
+  elements.form.addEventListener('submit', formSubmitHandler);
 
   elements.steps.forEach((step, index) => {
     quizStepController(step, index, quizInstaceMediator);
   });
+
+  document.addEventListener('click', preventAutoReload);
 };

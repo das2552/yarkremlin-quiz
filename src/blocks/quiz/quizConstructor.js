@@ -8,6 +8,7 @@ export default (element) => {
     disablingSubmitButtonState: 'disabled',
     visibilityResult: 'hidden',
     result: null,
+    userActivityState: 'idle',
   };
 
   const state = {
