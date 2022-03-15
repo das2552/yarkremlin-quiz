@@ -82,7 +82,7 @@ export default (element) => {
 
   const preventAutoReload = debounce(windowReload, quizConstants.userInactionDelay);
 
-  elements.resetButton.addEventListener('click', () => windowReload);
+  elements.resetButton.addEventListener('click', windowReload);
 
   elements.form.addEventListener('submit', formSubmitHandler);
 
