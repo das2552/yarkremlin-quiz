@@ -1,3 +1,3 @@
 import runApp from './init';
 
-runApp();
+document.addEventListener('DOMContentLoaded', runApp);

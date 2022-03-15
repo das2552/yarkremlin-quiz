@@ -1,11 +1,20 @@
 @media (max-width: 1919px) {
     .quiz {
         &__step {
+            flex-direction: column;
             margin-top: -44px;
         }
 
         &__step-col {
             margin-top: 44px;
+        }
+
+        &__step-col_sm-order_first {
+            order: -1;
+        }
+        
+        &__card {
+            margin-left: 0;
         }
 
         &__question {
