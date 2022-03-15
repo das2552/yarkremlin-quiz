@@ -11,7 +11,7 @@ import { formatQuizResultInfo } from './helpres';
 import { debounce } from '../../helpers/helpers';
 
 const buildResultCardTemplate = ({ result, descr }) => (
-  `<p class="quiz__card-text">${result}</p><p class="quiz__card-descr">${descr}</p>`
+  `<div class="quiz__card-text">${result}</div><div class="quiz__card-descr">${descr}</div>`
 );
 
 const renderResult = (state, elements) => {
