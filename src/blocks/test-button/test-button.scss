@@ -1,4 +1,4 @@
-.button {
+.test-button {
   appearance: none;
   display: inline-flex;
   align-items: center;
@@ -18,23 +18,23 @@
   transition: 0.2s ease-in-out;
 }
 
-.button:hover,
-.button:active
+.test-button:hover,
+.test-button:active
 {
   border-color: #ef453e;
   background-color: #ef453e;
 }
 
-.button:disabled {
+.test-button:disabled {
   border-color: #f2f2f2;
   background-color: #f2f2f2;
   color: #cfcfcf;
 }
 
-.button_hidden {
+.test-button_hidden {
   display: none;
 }
 
-.button_type_link {
+.test-button_type_link {
   text-decoration: none;
 }
