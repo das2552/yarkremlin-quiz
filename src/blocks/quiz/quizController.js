@@ -90,5 +90,7 @@ export default (element) => {
     quizStepController(step, index, quizInstaceMediator);
   });
 
-  document.addEventListener('click', preventAutoReload);
+  if (window.innerWidth >= quizConstants.userInactionObserverBreakpoint) {
+    document.addEventListener('click', preventAutoReload);
+  }
 };
