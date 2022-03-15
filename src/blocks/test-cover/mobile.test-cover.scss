@@ -1,9 +1,9 @@
 @media (max-width: 767px) {
-    .cover {
-        margin-bottom: 32px;
+    .test-cover {
+        margin-bottom: 24px;
         
         &__container {
-            min-height: 320px;
+            padding-top: 32px;
             padding-bottom: 32px;
         }
 
