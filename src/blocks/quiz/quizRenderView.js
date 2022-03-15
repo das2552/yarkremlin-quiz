@@ -5,7 +5,7 @@ export default {
     const { state, elements } = props;
 
     if (state.visibilitySubmitButtonState === 'shown') {
-      elements.submitButton.classList.remove('button_hidden');
+      elements.submitButton.classList.remove('test-button_hidden');
     }
 
     if (state.disablingStepNavState === 'enabled') {

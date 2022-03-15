@@ -37,7 +37,7 @@ export default {
     }
 
     if (state.visibilityStepNavState === 'hidden') {
-      elements.stepNav.classList.add('button_hidden');
+      elements.stepNav.classList.add('test-button_hidden');
     }
   },
 };
